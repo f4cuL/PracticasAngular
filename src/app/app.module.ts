@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { EmpleadosComponent } from './empleados/empleados.component';
 
 import { AppComponent } from './app.component';
+import { EmpleadoComponent } from './empleado/empleado.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [		
+    AppComponent,
+    EmpleadosComponent,
+    EmpleadoComponent
+   ],
   imports: [
-    BrowserModule
+    BrowserModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
